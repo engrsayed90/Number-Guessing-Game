@@ -4,7 +4,7 @@ let msg3 = document.getElementById("message3");
 
 let answer = Math.floor(Math.random()*100) + 1;
 let no_of_guesses = 0;
-var guessed_nums = [];
+let guessed_nums = [];
 
 function play(){
     var user_guess = document.getElementById("guess").value;
