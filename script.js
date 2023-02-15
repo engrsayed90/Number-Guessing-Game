@@ -2,7 +2,7 @@ let msg1 = document.getElementById("message1");
 let msg2 = document.getElementById("message2");
 let msg3 = document.getElementById("message3");
 
-var answer = Math.floor(Math.random()*100) + 1;
+let answer = Math.floor(Math.random()*100) + 1;
 var no_of_guesses = 0;
 var guessed_nums = [];
 
